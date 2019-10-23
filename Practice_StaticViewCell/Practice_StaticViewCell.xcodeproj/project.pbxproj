@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2214928236084B1002732A3 /* Practice_StaticViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_StaticViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2214928236084B1002732A3 /* Practice_StaticCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_StaticCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A221492B236084B1002732A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A221492D236084B1002732A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A221492F236084B1002732A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		A2214929236084B1002732A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2214928236084B1002732A3 /* Practice_StaticViewCell.app */,
+				A2214928236084B1002732A3 /* Practice_StaticCells.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = Practice_StaticViewCell;
 			productName = Practice_StaticViewCell;
-			productReference = A2214928236084B1002732A3 /* Practice_StaticViewCell.app */;
+			productReference = A2214928236084B1002732A3 /* Practice_StaticCells.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -299,8 +299,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.Practice-StaticViewCell";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Practice-StaticCells";
+				PRODUCT_NAME = Practice_StaticCells;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.Practice-StaticViewCell";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Practice-StaticCells";
+				PRODUCT_NAME = Practice_StaticCells;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
